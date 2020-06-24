@@ -24,11 +24,11 @@ Globals:
       Role: !Ref CodeDeployRole
 
 Resources:
-  GetHelloWorld:
+  GetStatus:
     Type: AWS::Serverless::Function
     Properties:
-      FunctionName: !Sub 'awscodestar-${ProjectId}-lambda-GetHelloWorld'
-      Handler: com.aws.codestar.projecttemplates.handler.HelloWorldHandler
+      FunctionName: !Sub 'awscodestar-${ProjectId}-lambda-BeforeSaveValidationStatus'
+      Handler: com.aws.codestar.projecttemplates.handler.BeforeSaveValidationStatus
       Runtime: java8
       Role:
         Fn::GetAtt:
@@ -41,11 +41,11 @@ Resources:
             Path: /
             Method: get
 
-  PostHelloWorld:
+  PostStatus:
     Type: AWS::Serverless::Function
     Properties:
-      FunctionName: !Sub 'awscodestar-${ProjectId}-lambda-PostHelloWorld'
-      Handler: com.aws.codestar.projecttemplates.handler.HelloWorldHandler
+      FunctionName: !Sub 'awscodestar-${ProjectId}-lambda-BeforeSaveValidationStatus'
+      Handler: com.aws.codestar.projecttemplates.handler.BeforeSaveValidationStatus
       Runtime: java8
       Role:
         Fn::GetAtt:
