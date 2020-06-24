@@ -5,7 +5,7 @@ import java.util.List;
 import com.reltio.lifecycle.framework.*;
 import com.reltio.lifecycle.lambda.LifeCycleActionHandler;
 
-public class BeforeSaveValidationStatus extends LifeCycleActionBase {
+public class BeforeSaveValidationStatus extends LifeCycleActionBase {    
 
 	@Override
 	public ILifeCycleObjectData beforeSave(IReltioAPI reltioAPI, ILifeCycleObjectData data) {
