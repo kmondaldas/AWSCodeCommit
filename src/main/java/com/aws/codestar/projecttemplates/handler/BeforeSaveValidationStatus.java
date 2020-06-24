@@ -1,4 +1,4 @@
-package com.deloitte.reltio;
+package com.aws.codestar.projecttemplates.handler;
 
 import java.util.List;
 
