@@ -4,8 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.deloitte.reltio</groupId>
 	<artifactId>beforeSaveLCA</artifactId>
+	
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
+	
 
 		<dependency>
 
@@ -40,18 +42,6 @@
 			</exclusions>
 
 		</dependency>
-
-
-
-
-
-
-
-		<!-- <dependency> <groupId>com.reltio</groupId> <artifactId>life-cycle-framework-lambda</artifactId> 
-			<version>(2017.1.0.0.0,2017.1.1.0.0] </version> </dependency> <dependency> 
-			<groupId>com.reltio</groupId> <artifactId>reltio-life-cycle-test</artifactId> 
-			<version>(2017.1.0.0.0,2017.1.1.0.0] </version> <scope>test</scope> </dependency> -->
-
 		<dependency>
 
 			<groupId>log4j</groupId>
@@ -159,7 +149,7 @@
 		</plugins>
 
 	</build>
-
+	
 	<repositories>
 
 		<repository>
@@ -198,10 +188,13 @@
 
 			<name>Reltio third-party libraries</name>
 
-			<url>http://repo.dev.reltio.com/content/repositories/thirdparty</url>
+			<url>http://repo.ev.reltio.com/content/repositories/thirdparty</url>
 
 		</repository>
 
 	</repositories>
+<profiles>
+
+</profiles>
 
 </project>
