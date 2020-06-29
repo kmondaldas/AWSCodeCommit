@@ -13,7 +13,7 @@ phases:
       - pwd
       - ls -l
       - vi -i settings.xml
-      - :q!
+      - G
       - echo Test started on `date`
       - mvn clean compile test
   build:
