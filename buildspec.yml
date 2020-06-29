@@ -12,7 +12,7 @@ phases:
       - cd /root/.m2/
       - pwd
       - ls -l
-      - vi  settings.xml
+      - vi -i settings.xml
       - echo Test started on `date`
       - mvn clean compile test
   build:
