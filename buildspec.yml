@@ -9,10 +9,9 @@ phases:
       - pip install --upgrade awscli
   pre_build:
     commands:
-      - cd /opt/maven/
+      - mvn -X
       - pwd
       - ls -l
-      - cd conf
       - echo Test started on `date`
       - mvn clean compile test
   build:
