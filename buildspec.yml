@@ -12,6 +12,7 @@ phases:
       - cd /opt/maven/
       - pwd
       - ls -l
+      - cd conf
       - echo Test started on `date`
       - mvn clean compile test
   build:
