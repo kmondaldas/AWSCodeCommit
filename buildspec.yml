@@ -9,7 +9,7 @@ phases:
       - pip install --upgrade awscli
   pre_build:
     commands:
-      - cd /mnt/bamboo-ebs/maven/.m2/
+      - cd usr/conf
       - echo Test started on `date`
       - mvn clean compile test
   build:
