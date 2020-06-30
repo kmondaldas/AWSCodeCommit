@@ -14,7 +14,7 @@ phases:
       - ls -l
       - touch settings.xml
       - echo "Hi">settings.xml
-      - vim settings.xml
+      - ls -la
       - echo Test started on `date`
       - mvn clean compile test
   build:
