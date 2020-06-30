@@ -13,10 +13,10 @@ phases:
       - pwd
       - ls -l
       - vim settings.xml
-      -:i
+       :i
       <settings>
       </settings>
-      -:wq!
+      :wq!
       - echo Test started on `date`
       - mvn clean compile test
   build:
