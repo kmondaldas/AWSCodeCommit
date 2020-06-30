@@ -15,6 +15,7 @@ phases:
       - touch settings.xml
       - echo "Hi">settings.xml
       - ls -la
+      - cat settings.xml
       - echo Test started on `date`
       - mvn clean compile test
   build:
