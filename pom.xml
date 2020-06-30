@@ -10,24 +10,15 @@
 	
 
 		<dependency>
-
-			<groupId>com.reltio</groupId>
-
-			<artifactId>life-cycle-framework-lambda</artifactId>
-
-			<version>[2020.2.0.0.0, 2020.2.0.0.1)</version>
-
-		</dependency>
-
-		<dependency>
-
-			<groupId>com.reltio.services.lca</groupId>
-
-			<artifactId>reltio-lca-service-test-framework</artifactId>
-
-			<version>[2020.2.0.0.0, 2020.2.0.0.1)</version>
-
-			<scope>test</scope>
+            <groupId>com.reltio</groupId>
+            <artifactId>life-cycle-framework-lambda</artifactId>
+            <version>[2020.3.0.0.0, 2020.3.1.0.0)</version>
+        </dependency>
+        <dependency>
+            <groupId>com.reltio.services.lca</groupId>
+            <artifactId>reltio-lca-service-test-framework</artifactId>
+            <version>[2020.2.0.0.0, 2020.2.1.0.0)</version>
+            <scope>test</scope>
 
 			<exclusions>
 
