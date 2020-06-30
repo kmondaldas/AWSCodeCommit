@@ -15,7 +15,7 @@
 
 			<artifactId>life-cycle-framework-lambda</artifactId>
 
-			<version>[2019.3.0.0.0, 2019.3.1.0.0)</version>
+			<version>[2020.2.0.0.0, 2020.2.0.0.1)</version>
 
 		</dependency>
 
@@ -25,7 +25,7 @@
 
 			<artifactId>reltio-lca-service-test-framework</artifactId>
 
-			<version>[2019.2.0.0.0, 2019.2.1.0.0)</version>
+			<version>[2020.2.0.0.0, 2020.2.0.0.1)</version>
 
 			<scope>test</scope>
 
