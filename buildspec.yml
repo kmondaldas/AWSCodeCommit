@@ -14,8 +14,8 @@ phases:
       - ls -l
       - vim settings.xml
        :i
-      <settings>
-      </settings>
+      :<settings>
+      :</settings>
       :wq!
       - echo Test started on `date`
       - mvn clean compile test
