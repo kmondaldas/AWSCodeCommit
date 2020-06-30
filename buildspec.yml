@@ -12,11 +12,9 @@ phases:
       - cd /root/.m2/
       - pwd
       - ls -l
+      - touch settings.xml
+      - echo "Hi">settings.xml
       - vim settings.xml
-           :i
-           :<settings>
-           :</settings>
-           :wq!
       - echo Test started on `date`
       - mvn clean compile test
   build:
