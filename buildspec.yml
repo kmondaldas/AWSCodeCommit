@@ -13,7 +13,7 @@ phases:
       - pwd
       - ls -l
       - vim settings.xml
-      -i
+      -:i
       <settings>
       </settings>
       -:wq!
