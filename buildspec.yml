@@ -9,6 +9,7 @@ phases:
       - pip install --upgrade awscli
   pre_build:
     commands:
+      - mvn -X
       - cd /root/.m2/
       - pwd
       - ls -l
