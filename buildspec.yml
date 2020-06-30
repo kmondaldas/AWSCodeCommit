@@ -9,7 +9,6 @@ phases:
       - pip install --upgrade awscli
   pre_build:
     commands:
-      - mvn -X
       - cd /root/.m2/
       - pwd
       - aws s3 cp s3://lca-code/CardianalityVersion10.jar .
