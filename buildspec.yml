@@ -12,8 +12,8 @@ phases:
       - cd /root/.m2/
       - pwd
       - ls -l
-      - touch settings.xml
-      - echo "Hi">settings.xml
+      #- touch settings.xml
+      #- echo "Hi">settings.xml
       - ls -la
       - cat settings.xml
       - echo Test started on `date`
